@@ -1,0 +1,15 @@
+#page4{
+    #contact_me{
+        #contact_form{
+            @extend .perfect_center;
+            input , textarea{
+                color: var(--main-input-text-color);
+                background-color: var(--main-input-bg-color);
+            }
+        }
+        #contact_meta_info{
+            @extend .perfect_center;
+            flex-direction: column;
+        }
+    }
+}
