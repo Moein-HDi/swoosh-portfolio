@@ -1,0 +1,19 @@
+// extend classes
+.perfect_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light {
+  background-color: var(--secondary-bg-color) !important;
+  color: var(--secondary-text-color) !important;
+  input , textarea {
+    color: initial!important;
+    background-color: #fff!important;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ccc;
+  }
+}
+

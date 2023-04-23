@@ -1,0 +1,43 @@
+@media (max-width:1200px ) and (min-width:992px) {
+    h1{
+        font-size: 3.3rem!important;
+    }
+}
+@media (max-width:992px) and (min-width:768px) {
+    h1{
+        font-size: 2.5rem!important;
+    }
+    #typewriter{
+        
+        font-size: 1.5rem!important;
+    }
+}
+
+@media (max-width:767px) {
+    h1{
+        font-size: 1.8rem!important;
+    }
+    #typewriter{
+        
+        font-size: 1.2rem!important;
+    }
+   #socials{
+     ul {
+        margin-top: 20px!important;
+        flex-direction: row!important;
+        li { 
+            margin: 0 20px!important;
+        }
+     }
+   }
+}
+@media (max-width:575px){
+    h1{
+        font-size: 2.5rem!important;
+    }
+    #typewriter{
+        
+        font-size: 1.9rem!important;
+    }
+    
+}

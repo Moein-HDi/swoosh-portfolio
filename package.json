@@ -9,10 +9,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.3.0",
-    "sass": "^1.62.0"
+    "sass": "^1.62.0",
+    "vite": "^4.3.0"
   },
   "dependencies": {
+    "skrollr": "^0.6.26",
     "typewriter-effect": "^2.19.0"
   }
 }

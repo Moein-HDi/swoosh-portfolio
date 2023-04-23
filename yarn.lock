@@ -318,6 +318,11 @@ sass@^1.62.0:
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
 
+skrollr@^0.6.26:
+  version "0.6.26"
+  resolved "https://registry.yarnpkg.com/skrollr/-/skrollr-0.6.26.tgz#65d1aafcc69fc6d27e6cff0f086c25b31b20ab18"
+  integrity sha512-EK/0Nd2BYGCMyY6hcSnj7DpiUhOlHnH8q32Xa1GVrt40ZFo8YSRYA9mP72rI/7CaRg/Pbi8AkAbYV1bbTYZlEw==
+
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"

@@ -1,2 +1,37 @@
 @charset "utf-8";
+@import'globals';
+@import 'colors';
+@import 'reset';
+@import 'components/page1';
+@import 'media/media_page1';
 
+* {
+  font-family: sans-serif;
+}
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  > section {
+    @extend .perfect_center;
+    min-width: 100%;
+    // height: 100vh;
+    margin: auto 0;
+    height: auto;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .wrapper {
+    position: absolute;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    transform: none!important;
+  }
+}
